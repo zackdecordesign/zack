@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://zackdecordesign.github.io/zack/sitemap.xml
