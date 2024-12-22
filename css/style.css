@@ -798,3 +798,41 @@ textarea {
       position: relative; /* Ensure relative positioning for the item */
   }
 }
+
+/* Style the "Add to Cart" text */
+.add-to-cart-text {
+  font-size: 14px; /* Adjust size */
+  color: #333; /* Adjust color */
+  font-weight: bold; /* Make it stand out */
+}
+
+
+
+
+.product-section .product-item:hover .icon-cross {
+  bottom: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+.product-section .product-item:hover .icon-label {
+  opacity: 1; /* Make the label visible */
+  visibility: visible; /* Ensure visibility */
+}
+
+
+
+.icon-label {
+  position: absolute;
+  bottom: -40px; /* Position below the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease; /* Smooth animation */
+  font-size: 16px;
+  font-weight: bold;
+  color: blue; /* Adjust the color to match your design */
+  text-align: center;
+}
+
