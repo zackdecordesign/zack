@@ -771,3 +771,30 @@ textarea {
   }
   
 
+/* Adjust text alignment for smaller screens */
+@media (max-width: 768px) {
+  .navbar-brand {
+      text-align: center;
+      padding: 10px;
+  }
+
+  .hero .btn {
+      display: inline-block;
+      margin: 5px;
+  }
+}
+
+
+/* Always display the icon-cross on small screens */
+@media (max-width: 768px) {
+  .product-item .icon-cross {
+      display: block !important; /* Use !important to override other styles */
+      position: absolute;
+
+      z-index: 10;
+  }
+
+  .product-item {
+      position: relative; /* Ensure relative positioning for the item */
+  }
+}
